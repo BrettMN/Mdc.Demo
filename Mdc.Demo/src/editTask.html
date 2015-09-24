@@ -1,0 +1,12 @@
+﻿<template>
+    <div class="row">
+        <form class="form-inline">
+            <div class="form-group">
+                <label for="NewTask">Edit Task</label>
+                <input id="NewTask" type="text" value.bind="task.description" class="form-control" />
+            </div>
+            <input type="button" click.delegate="saveTask()" class="btn btn-success" value="Save" />
+            <a href="#/" class="btn btn-danger">Cancel</a>
+        </form>
+    </div>
+</template>

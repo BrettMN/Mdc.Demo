@@ -1,0 +1,32 @@
+<template>
+    <!--<require from="addtask"></require>
+    <addtask></addtask>-->
+    <div class="row top-buffer">
+        <div class="table-responsive">
+            <table class="table table-striped table-bordered">
+                <thead>
+                    <tr>
+                        <th>Complete</th>
+                        <th>Description</th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tr repeat.for="task of data.tasks" class="${task.complete ? 'success' : ''}">
+                    <td class="text-center text-middle">
+                        <i class="fa fa-2x ${task.complete ? 'fa-check-circle-o' : 'fa-circle-o'}" click.delegate="$parent.toggleCompleteTask(task)"></i>
+                    </td>
+                    <td>
+                        <h4>${task.description}</h4>
+                    </td>
+                    <td>
+                        <a href="#/edittask/${task.id}" class="btn btn-default btn-block">Edit</a>
+                    </td>
+                    <td>
+                        <input type="button" click.delegate="$parent.deleteTask(task.id)" value="Delete" class="btn btn-danger  btn-block" />
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</template>
