@@ -2,15 +2,8 @@
 import {HttpClient} from 'aurelia-http-client';
 import {Task} from '/app/task';
 
-
-//let endpoint = 'http://localhost:65507/api/tasks';
-//let getEndpointWithId = id => `http://localhost:65507/api/tasks/${id}`;
-
 let endpoint = '/api/tasks';
 let getEndpointWithId = id => `/api/tasks/${id}`;
-
-
-
 
 @inject(HttpClient)
 export class Data{    
@@ -80,8 +73,6 @@ export class Data{
                 this.deleteTaskById(task.id);
                 return task;
             }) 
-            //.then(data => this.tasks.push(data));
         .then(data => this.pushTask(data));
     }
-
 }

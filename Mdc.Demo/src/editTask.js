@@ -3,11 +3,8 @@ import {Router} from "aurelia-router";
 import {Data} from '/app/data';
 import {Task} from '/app/task';
 
-
 @inject(Data, Router)
-export class AddTask{
-
-    title = 'Edit Task';
+export class EditTask{
 
     constructor(data, router){
         this.data = data;

@@ -19,7 +19,7 @@ namespace Mdc.Demo.BLL.Services
                 _tasks = new Dictionary<int, Models.Task>();
                 _tasks.Add(0, new Models.Task { Id = 0, Complete = true, Description = "Don't Panic" });
                 _tasks.Add(1, new Models.Task { Id = 1, Complete = false, Description = "Give Presentaion" });
-                _tasks.Add(2, new Models.Task { Id = 1, Complete = false, Description = "Relax" });
+                _tasks.Add(2, new Models.Task { Id = 2, Complete = false, Description = "Relax" });
             }
         }
 

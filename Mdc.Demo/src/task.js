@@ -7,9 +7,4 @@ export class Task{
         this.description = description;
         this.complete = complete;
     }
-
-    //@computedFrom('complete')
-    //getCheckedClass(){
-    //    return this.complete ? 'fa fa-2x fa-check-circle-o' : 'fa fa-2x  fa-circle-o';
-    //}
 }

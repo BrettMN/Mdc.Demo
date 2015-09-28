@@ -139,6 +139,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\app.html" />
+    <Content Include="app\app.js" />
     <Content Include="GulpBuild\bundle.js" />
     <Content Include="GulpBuild\gulp.paths.js" />
     <Content Include="GulpBuild\clean.js" />
@@ -165,8 +167,7 @@
   <ItemGroup>
     <Content Include="app\addTask.html" />
     <Content Include="app\addTask.js" />
-    <Content Include="app\app.html" />
-    <Content Include="app\app.js" />
+    <Content Include="app\main.js" />
     <Content Include="app\data.js" />
     <Content Include="app\editTask.html" />
     <Content Include="app\editTask.js" />
