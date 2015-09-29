@@ -1,3 +1,5 @@
+import 'bootstrap';
+
 ﻿export class App {
     configureRouter(config, router){
         config.title = 'ToDo';
