@@ -145,16 +145,6 @@
     <Content Include="GulpBuild\gulp.paths.js" />
     <Content Include="GulpBuild\clean.js" />
     <Content Include="GulpBuild\maingulp.js" />
-    <Content Include="src\addTask.html" />
-    <Content Include="src\addTask.js" />
-    <Content Include="src\app.html" />
-    <Content Include="src\app.js" />
-    <Content Include="src\data.js" />
-    <Content Include="src\editTask.html" />
-    <Content Include="src\editTask.js" />
-    <Content Include="src\task.js" />
-    <Content Include="src\tasks.html" />
-    <Content Include="src\tasks.js" />
     <Content Include="packages.config" />
     <Content Include="package.json" />
     <None Include="Web.Debug.config">
@@ -179,6 +169,16 @@
     <Content Include="Global.asax" />
     <Content Include="gulpfile.js" />
     <Content Include="index.html" />
+    <Content Include="src\addtask.html" />
+    <Content Include="src\addtask.js" />
+    <Content Include="src\app.html" />
+    <Content Include="src\app.js" />
+    <Content Include="src\data.js" />
+    <Content Include="src\edittask.html" />
+    <Content Include="src\edittask.js" />
+    <Content Include="src\task.js" />
+    <Content Include="src\tasks.html" />
+    <Content Include="src\tasks.js" />
     <Content Include="style\styles.css" />
     <Content Include="Web.config" />
   </ItemGroup>

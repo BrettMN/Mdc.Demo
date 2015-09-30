@@ -6,6 +6,8 @@ import {Task} from '/app/task';
 @inject(Data, Router)
 export class EditTask{
 
+    title = 'Edit Task';
+
     constructor(data, router){
         this.data = data;
         this.router = router;

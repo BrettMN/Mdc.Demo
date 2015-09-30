@@ -1,6 +1,4 @@
-﻿import {computedFrom} from 'aurelia-framework';
-
-export class Task{
+﻿export class Task{
 
     constructor(id, description, complete){
         this.id = id;
